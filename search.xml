@@ -4,25 +4,31 @@
   
     
     <entry>
-      <title>这是一篇新的博文</title>
-      <link href="/2025/11/13/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/"/>
-      <url>/2025/11/13/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/</url>
+      <title>我家的猫</title>
+      <link href="/2025/11/11/%E6%88%91%E5%AE%B6%E7%9A%84%E7%8C%AB/"/>
+      <url>/2025/11/11/%E6%88%91%E5%AE%B6%E7%9A%84%E7%8C%AB/</url>
       
-        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+        <content type="html"><![CDATA[<p><mark>这是我家的猫，ponyo</mark></p><p><img src="https://img.704119.xyz/file/1762840543361_20190311_IMG_1387.JPG" alt="Ponyo"></p><span id="more"></span><p><img src="https://img.704119.xyz/file/1762840466060_%E6%B3%A2%E5%A6%9E%E5%A4%A7%E5%A4%B4.jpg"></p><p><img src="https://img.704119.xyz/file/1762652211749_IMG_0144.JPG" alt="IMG_0144.JPG"></p>]]></content>
       
       
       <categories>
           
-          <category> 技术类文章 </category>
+          <category> 生活 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 标签1 </tag>
+            <tag> 宠物 </tag>
             
-            <tag> 标签2 </tag>
+            <tag> 生活 </tag>
+            
+            <tag> 我家 </tag>
+            
+            <tag> 休闲 </tag>
+            
+            <tag> 美图 </tag>
             
         </tags>
       
@@ -31,13 +37,75 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2025/11/13/hello-world/"/>
-      <url>/2025/11/13/hello-world/</url>
+      <title>一张好图</title>
+      <link href="/2025/11/07/%E4%B8%80%E5%BC%A0%E5%A5%BD%E5%9B%BE/"/>
+      <url>/2025/11/07/%E4%B8%80%E5%BC%A0%E5%A5%BD%E5%9B%BE/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.704119.xyz/file/1762841601748_post-10-1110542621.jpg" alt="预警机"></p><span id="more"></span><p><img src="https://img.704119.xyz/file/1762841808432_7c39f8281b353f85b9819906937d16d.jpg" alt="生气了"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 美图 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 兵器图片 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是一篇新的博文</title>
+      <link href="/2025/11/04/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/"/>
+      <url>/2025/11/04/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello-world</title>
+      <link href="/2025/11/01/hello-world/"/>
+      <url>/2025/11/01/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
       
     </entry>
     
