@@ -1,0 +1,128 @@
+/* clock-widget.css - 侧边栏时钟插件样式 */
+.clock-widget {
+  background: var(--card-bg, #fff);
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: 1px solid var(--style-border, #e3e8f7);
+  box-shadow: var(--anzhiyu-shadow-border, 0 4px 8px rgba(0,0,0,0.05));
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.clock-widget::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--anzhiyu-main, #425AEF), #f2b94b);
+  border-radius: 12px 12px 0 0;
+}
+
+.clock-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  color: var(--anzhiyu-main, #425AEF);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--style-border, #e3e8f7);
+}
+
+.clock-time {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 12px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--font-color, #333);
+  font-family: 'Courier New', monospace;
+  background: var(--anzhiyu-secondbg, #f8f9fa);
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--style-border, #e3e8f7);
+}
+
+.clock-date {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+  opacity: 0.8;
+  color: var(--font-color, #333);
+}
+
+.clock-location {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  opacity: 0.9;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--style-border, #e3e8f7);
+  color: var(--font-color, #333);
+}
+
+.clock-weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.clock-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.clock-loading {
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .clock-widget {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .clock-time {
+    font-size: 20px;
+  }
+  
+  .clock-title {
+    font-size: 15px;
+  }
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+  .clock-widget {
+    background: var(--card-bg, #1e1e1e);
+    border-color: var(--style-border, #333);
+  }
+  
+  .clock-time, .clock-date, .clock-location {
+    color: var(--font-color, #e0e0e0);
+  }
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.clock-widget {
+  animation: fadeIn 0.5s ease-out;
+}
